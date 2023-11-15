@@ -2,7 +2,7 @@ import sys
 import torch.nn as nn
 import torch
 
-sys.path.append("../transformer_captioning") 
+
 from transformer import (
     AttentionLayer,
     MultiHeadAttentionLayer,
